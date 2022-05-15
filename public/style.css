@@ -1,0 +1,235 @@
+/* font-family: 'Damion', cursive;
+font-family: 'Maven Pro', sans-serif; 
+*/
+
+:root{
+    --tuerkis:#A0F2CC;
+    --gray: #9c9996;
+    --yellow: #F2EB80;
+    --purple: #EFD8F2;
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    font-size: 2vw;
+    font-family: 'Damion', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--yellow);
+    color: var(--gray);
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px #9c999650 ;
+}
+
+body{
+    
+font-family: 'Maven Pro', sans-serif; 
+margin-bottom: 80px;
+}
+
+.nav{
+    font-family: 'Maven Pro', sans-serif;   
+    display: flex;
+}
+
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    color: var(--gray);
+}
+
+.nav a:hover{
+    transition: 1s ease;
+    box-shadow: 0px 3px 0px #9c999650 ;
+    opacity: .8;
+}
+.nav a:active{
+    opacity: .6;
+}
+
+.a{
+    text-decoration: none;
+    color: #F2EB80;
+    
+}
+
+footer a:hover{
+    transition: 1s ease;
+    box-shadow: 0px 5px 5px #9c999650 ;
+}
+
+footer{
+    position: fixed;
+            bottom: 0;
+            width: 100%;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+    background-color:#9c999680;
+    font-family: 'Maven Pro', sans-serif;
+    color: #F2EB80;
+    font-size: .7rem;
+}
+
+/* HEADER AND FOOTER */
+
+
+.container{
+    padding: 30px;
+}
+
+.container h1{
+    padding-bottom: 10px;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #A0F2CC30;
+    padding: 10px;
+}
+
+
+.contactForm input, .contactForm textarea{
+    font-family: 'Damion', cursive;
+    margin-top: 10px;
+    padding: 10px;
+    border: #9c999630 1px solid;
+    font-size: 1rem;
+    box-shadow: 3px 3px 3px #9c999630 ;
+}
+
+
+.contactForm input[type="submit"]{
+    width: fit-content;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #EFD8F2;
+    cursor: pointer;
+    border-radius: 10px;
+    border: #9c999650 1px solid;
+    box-shadow: 3px 3px 3px #9c999630 ;
+    margin-left: 10px;
+}
+.contactForm input[type="submit"]:hover{
+    opacity: .8;
+}
+
+.contactForm input[type="submit"]:active{
+    opacity: .6;
+}
+
+.contactIcons{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.contactIcons img{
+    width: 20px;
+    margin: 10px 20px 0 20px;
+}
+
+.composeText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+}
+
+.composeText input{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.composeText button{
+    width: fit-content;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #EFD8F2;
+    cursor: pointer;
+    border-radius: 10px;
+    border: #9c999650 1px solid;
+    box-shadow: 3px 3px 3px #9c999630 ;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.composeText button:hover{
+    opacity: .8;
+}
+
+.composeText button:active{
+    opacity: .6;
+}
+
+
+
+
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: #9c999650 1px solid;
+    box-shadow: 0px 2px 3px #9c999630 ;
+    background-color: #A0F2CC30;
+    margin-bottom: 20px;
+}
+
+.box:hover{
+    background-color: #A0F2CC;
+    transition: 1s ease;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box:active{
+    opacity: .6;
+}
+
+.container h2{
+    font-family: 'Damion', cursive;
+    letter-spacing: .2rem;
+    margin-bottom: .5rem;
+}
+
+
+
+.compose{
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    background-color: #F29F05;
+    opacity: .8;
+    box-shadow: 3px 2px 20px rgb(150, 146, 146);
+    cursor: pointer;
+}
+
+.compose a{
+    text-decoration: none;
+    color:#F2F1E9;
+
+}
+.compose:hover{
+    transition: 1s ease;
+    opacity: .5;
+    box-shadow: 3px 2px 25px rgb(143, 139, 139);
+}
+
+p{
+    font-size: .7rem;
+    margin-top: .5rem;
+}

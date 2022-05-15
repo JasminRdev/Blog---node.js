@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs'); %>
+
+<div class="container">
+<h1>Home</h1>
+<p><%= startingContent %></p>
+
+<div class="container">
+
+    <% newCompose.forEach(function(post) {%>
+       <div class="box">
+  <h2> <%= post.title %></h2>
+  <p> <%= post.content.substring(0, 100);  %>... <a href= "chapter/<%= post.title %>">Read more</a> </p>
+</div>
+<%  });%>
+        
+        
+
+</div>
+</div>
+
+
+<%- include('partials/footer.ejs'); %>
+

@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs'); %>
+
+<div class="container">
+    <h1>Contact</h1>
+    <%= contactContent %>
+    
+        
+    <form class="contactForm" action="mailto:jasminreich08@gmail.com" method="post" enctype="text/plain" >
+        <input type="email" name="yourEmail" placeholder="Your Email">
+        <textarea name="yourMessage" cols="20" rows="3" placeholder="Message"></textarea>
+        <input type="submit">
+        </form>
+    </div>
+
+
+
+<%- include('partials/footer.ejs'); %>
+
